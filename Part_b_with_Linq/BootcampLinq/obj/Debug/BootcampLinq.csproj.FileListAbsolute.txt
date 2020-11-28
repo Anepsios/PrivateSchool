@@ -1,0 +1,2 @@
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\individual_part_b_with_Linq\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csprojAssemblyReference.cache
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\individual_part_b_with_Linq\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csproj.CoreCompileInputs.cache

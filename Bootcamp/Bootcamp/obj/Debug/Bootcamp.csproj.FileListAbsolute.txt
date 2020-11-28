@@ -1,0 +1,7 @@
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\bin\Debug\Bootcamp.exe.config
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\bin\Debug\Bootcamp.exe
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\bin\Debug\Bootcamp.pdb
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\obj\Debug\Bootcamp.csprojAssemblyReference.cache
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\obj\Debug\Bootcamp.csproj.CoreCompileInputs.cache
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\obj\Debug\Bootcamp.exe
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Bootcamp\Bootcamp\obj\Debug\Bootcamp.pdb
