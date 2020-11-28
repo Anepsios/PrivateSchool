@@ -1,6 +1,6 @@
-﻿using Bootcamp.Models;
+﻿using BootcampLinq.Models;
 
-namespace Bootcamp
+namespace BootcampLinq
 {
     class Program
     {

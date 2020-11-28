@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BootcampModelStoreContainer" CdmEntityContainer="BootcampEntities">
+    <EntitySetMapping Name="Assignments">
+      <EntityTypeMapping TypeName="BootcampModel.Assignments">
+        <MappingFragment StoreEntitySet="Assignments">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="AssignmentDescription" ColumnName="AssignmentDescription" />
+          <ScalarProperty Name="SubmissionDate" ColumnName="SubmissionDate" />
+          <ScalarProperty Name="OralMark" ColumnName="OralMark" />
+          <ScalarProperty Name="TotalMark" ColumnName="TotalMark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseAssignments">
+      <EntityTypeMapping TypeName="BootcampModel.CourseAssignments">
+        <MappingFragment StoreEntitySet="CourseAssignments">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="AssignmentID" ColumnName="AssignmentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="BootcampModel.Courses">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Stream" ColumnName="Stream" />
+          <ScalarProperty Name="CourseType" ColumnName="CourseType" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseStudents">
+      <EntityTypeMapping TypeName="BootcampModel.CourseStudents">
+        <MappingFragment StoreEntitySet="CourseStudents">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentAssignments">
+      <EntityTypeMapping TypeName="BootcampModel.StudentAssignments">
+        <MappingFragment StoreEntitySet="StudentAssignments">
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="AssignmentID" ColumnName="AssignmentID" />
+          <ScalarProperty Name="Submitted" ColumnName="Submitted" />
+          <ScalarProperty Name="OralMark" ColumnName="OralMark" />
+          <ScalarProperty Name="TotalMark" ColumnName="TotalMark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="BootcampModel.Students">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BootcampModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trainers">
+      <EntityTypeMapping TypeName="BootcampModel.Trainers">
+        <MappingFragment StoreEntitySet="Trainers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="CourseSubject" ColumnName="CourseSubject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CourseTrainers" TypeName="BootcampModel.CourseTrainers" StoreEntitySet="CourseTrainers">
+      <EndProperty Name="Courses">
+        <ScalarProperty Name="ID" ColumnName="CourseID" />
+      </EndProperty>
+      <EndProperty Name="Trainers">
+        <ScalarProperty Name="ID" ColumnName="TrainerID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

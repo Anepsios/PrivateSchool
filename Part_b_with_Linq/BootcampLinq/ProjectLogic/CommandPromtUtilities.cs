@@ -1,7 +1,6 @@
 ﻿using System;
-using Bootcamp.Models;
 
-namespace Bootcamp.BussinessLogic
+namespace BootcampLinq.ProjectLogic
 {
     static class CommandPromtUtilities
     {
@@ -55,54 +54,63 @@ namespace Bootcamp.BussinessLogic
                 {
                     case "1":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintAllStudents();
                             Console.WriteLine();
                             break;
                         }
                     case "2":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintAllTrainers();
                             Console.WriteLine();
                             break;
                         }
                     case "3":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintAllAssignments();
                             Console.WriteLine();
                             break;
                         }
                     case "4":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintAllCourses();
                             Console.WriteLine();
                             break;
                         }
                     case "5":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintStudentsPerCourse();
                             Console.WriteLine();
                             break;
                         }
                     case "6":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintTrainersPerCourse();
                             Console.WriteLine();
                             break;
                         }
                     case "7":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintAssignmentsPerCourse();
                             Console.WriteLine();
                             break;
                         }
                     case "8":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintAssignmentsPerCoursePerStudent();
                             Console.WriteLine();
                             break;
                         }
                     case "9":
                         {
+                            Console.WriteLine();
                             DatabaseUtilities.PrintStudentsWithMultipleCourses();
                             Console.WriteLine();
                             break;

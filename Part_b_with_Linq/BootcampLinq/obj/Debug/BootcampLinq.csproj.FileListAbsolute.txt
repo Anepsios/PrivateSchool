@@ -1,2 +1,14 @@
 H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\individual_part_b_with_Linq\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csprojAssemblyReference.cache
 H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\individual_part_b_with_Linq\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csproj.CoreCompileInputs.cache
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\BootcampLinq.exe.config
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\BootcampLinq.exe
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\BootcampLinq.pdb
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\EntityFramework.dll
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\EntityFramework.SqlServer.dll
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\EntityFramework.xml
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\bin\Debug\EntityFramework.SqlServer.xml
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csprojAssemblyReference.cache
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csproj.CoreCompileInputs.cache
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.csproj.CopyComplete
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.exe
+H:\Users\Anepsios\Desktop\Download\FILES\PeopleCert\mavroudis_orestis_individual_part_b\Part_b_with_Linq\BootcampLinq\obj\Debug\BootcampLinq.pdb

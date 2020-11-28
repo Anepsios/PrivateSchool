@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
 using System.Threading;
-using Bootcamp.BussinessLogic;
+using BootcampLinq.ProjectLogic;
 
-namespace Bootcamp.Models
+namespace BootcampLinq.Models
 {
     class BootCamp
     {
