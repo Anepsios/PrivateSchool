@@ -292,7 +292,12 @@ namespace BootcampLinq.ProjectLogic
             {
                 try
                 {
-                    var query = from course in context.Courses
+                    var query = from student in context.Students
+                                join coursestudent in context.CourseStudents
+                                on student.ID equals coursestudent.StudentID
+                                join course in context.Courses
+                                on coursestudent.CourseID equals course.ID
+                                where 
                                 select new
                                 {
                                     ID = course.ID,
